@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header>
+            <h1 class="title">Nazywam się Maja.</h1>
+        </header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li><a class="navigation__link" href="#cos-o-mnie">Coś o mnie</li>
+                <li><a class="navigation__link" href="#plany-na-przyszlosc">Plany na przyszłość</a></li>
+                <li><a class="navigation__link" href="#troche-luzniejszych-informacji">Trochę luźniejszych
+                        informacji</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="section" id="cos-o-mnie">
+                <h2 class="section__header">Coś o mnie.</h2>
+                <img class="photo" height="200"
+                    src="https://i.postimg.cc/02kfbN0T/336694625-620116012916189-4654800795461395126-n.jpg"
+                    alt="Zdjęcie dziewczyny">
+                <p>
+                    <button class="js-button">Usuń zdjęcie</button>
+                </p>
+                <div>
+                    <p>Pochodzę z małej miejscowości na Mazowszu. Nazywa się
+                        <b>Miastków</b>.
+                        Skończyłam liceum z wykształceniem w kierunku biologiczno chemicznym. Jednak po szkole zmieniłam
+                        zdanie
+                        co
+                        do mojej ścieżki edukacji. Aktualnie od niedawna mieszkam w Warszawie. Pracuję na pełen etat,
+                        dorywczo
+                        udzielam korków i biorę udział w <strong class="section__element">
+                            tym kursie.</strong>
+                    </p>
+                </div>
+            </section>
+            <section class="section" id="plany-na-przyszlosc">
+                <h2 class="section__header">Plany na przyszłość.</h2>
+                <p>Swoją przyszłość zawodową chcę wiązać z <em>pracą w IT.</em> Niekoniecznie jako frontend developer.
+                    Na
+                    razie
+                    szukam swojej
+                    drogi. W planach mam kolejne kursy by powiększyć swoje umiejętnoci i jeszcze mocniej się doedukować.
+                    Wiedzy
+                    nigdy nie jest za dużo.</p>
+            </section>
+            <section class="section" id="troche-luzniejszych-informacji">
+                <h3 class="section__header">Trochę luźniejszych informacji.</h3>
+                <p>Większość mojego wolnego czasu zajmuje mój pies - mały kundelek, który zmienił moje życie. Wspólnie
+                    podróżujemy.
+                    Uwielbiam basen i ekstremalne rzeczy. Skoki na <i>bungee</i>, ze spadochronu czy nurkowanie to mój
+                    świat.
+                    <br>Nigdy się
+                    nie
+                    nudzę!
+                </p>
+            </section>
+            <div class="table__container">
+                <table class="table">
+                    <caption class="table__caption">Moje ulubione zajęcia</caption>
+                    <tr class="table__row">
+                        <th scope="col"></th>
+                        <th class="table__cell table__cell--header" scope="col">Gdy mam dużo energii</th>
+                        <th class="table__cell table__cell--header" scope="col">Gdy mam trochę energii</th>
+                        <th class="table__cell table__cell--header" scope="col">Gdy nie mam energii</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">W pomieszczeniu</th>
+                        <td class=table__cell>Siłownia</td>
+                        <td class=table__cell>Pieczenie</td>
+                        <td class=table__cell>Czytanie książek</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Na świeżym powietrzu</th>
+                        <td class=table__cell>Wycieczka z psem</td>
+                        <td class=table__cell>Pływanie w jeziorze</td>
+                        <td class=table__cell>Spacer z psem</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            Pytania proszę kierować na adres e-mail cm5@gmailcom
+        </footer>
+    </div>
+</body>
+
+</html>
