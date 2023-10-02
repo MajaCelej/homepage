@@ -8,7 +8,11 @@ html {
 
 .body {
     font-family: "Roboto", sans-serif;
-    background-color: #ffcdcd;
+    background-image: url("../images/light-pink-aesthetic-pictures-7ss3meys945on98c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .wrapper {
@@ -115,4 +119,8 @@ html {
 
 .table__container {
     overflow-x: auto;
+}
+
+.footer {
+    text-align: center;
 }
