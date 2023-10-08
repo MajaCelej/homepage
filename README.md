@@ -1,4 +1,5 @@
 # Maja Celej - website
+![Logo strony](https://github.com/MajaCelej/homepage/blob/main/images/HOMEPAGE.png?raw=true)
 ## Demo version
 https://majacelej.github.io/homepage/
 ### Description
