@@ -1,9 +1,17 @@
-console.log("Cześć wszystkim!")
+{
+    const welcome = () => {
+        console.log("Cześć wszystkim!")
+    }
+    welcome();
 
-let button = document.querySelector(".js-button");
-let photo = document.querySelector(".photo");
+    const TogglePhoto = () => {
+        const photo = document.querySelector(".photo");
+        photo.classList.toggle("photoBox");
+        button.innerText = button.innerText === "Usuń zdjęcie" ? "Pokaż zdjęcie" : "Usuń zdjęcie";
+    }
 
-button.addEventListener("click", () => {
-    photo.classList.toggle("photoBox");
-    button.innerText = button.innerText === "Usuń zdjęcie" ? "Pokaż zdjęcie" : "Usuń zdjęcie";
-});
+    const init = () => {
+        const button = document.querySelector(".js-button");
+        button.addEventListener("click", TogglePhoto);
+    };
+}
