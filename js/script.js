@@ -4,16 +4,17 @@
     }
     welcome();
 
-    const toggleogglePhoto = () => {
+    const button = document.querySelector(".js-button");
+
+    const togglePhoto = () => {
         const photo = document.querySelector(".photo");
         photo.classList.toggle("photoBox");
         button.innerText = button.innerText === "Usuń zdjęcie" ? "Pokaż zdjęcie" : "Usuń zdjęcie";
     }
 
     const init = () => {
-        const button = document.querySelector(".js-button");
-        button.addEventListener("click", TogglePhoto);
+        button.addEventListener("click", togglePhoto);
     };
 
-    init ();
+    init();
 }
