@@ -4,7 +4,7 @@
     }
     welcome();
 
-    const TogglePhoto = () => {
+    const toggleogglePhoto = () => {
         const photo = document.querySelector(".photo");
         photo.classList.toggle("photoBox");
         button.innerText = button.innerText === "Usuń zdjęcie" ? "Pokaż zdjęcie" : "Usuń zdjęcie";
@@ -14,4 +14,6 @@
         const button = document.querySelector(".js-button");
         button.addEventListener("click", TogglePhoto);
     };
+
+    init ();
 }
